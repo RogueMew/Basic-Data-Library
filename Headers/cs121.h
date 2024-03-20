@@ -49,6 +49,7 @@ class Tree
 {
     private:
         std::string data;
+        int data(
         Node* root
         Node* left;
         Node* right;
