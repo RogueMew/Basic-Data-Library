@@ -49,14 +49,6 @@ class TreeNode
 {
     int data;
     TreeNode* left;
-    TreeNode* right;
-    TreeNode();
-    TreeNode(std::string);
-    void print();
-    void print(std::string);
-    TreeNode* createNode(int);
-    bool isLeaf();
-    int size();
 }
 
 class Tree
