@@ -45,4 +45,16 @@ class Stack
         std::string pop();
 };
 
+class Tree
+{
+    private:
+        std::string data;
+        Node* Left;
+        Node* Right;
+    public:
+        Tree();
+        void push(std::string, std::string);
+        int size();
+        viid print();
+};
 #endif
