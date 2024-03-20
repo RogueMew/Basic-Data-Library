@@ -2,5 +2,10 @@
 
 Tree::Tree()
 {
-    TreeNode* root;
+    TreeNode* root->data = NULL;
+}
+
+Tree::Tree(int input)
+{
+    TreeNode* root->data = input;
 }
