@@ -47,6 +47,8 @@ class Stack
 
 class TreeNode
 {
+    TreeNode();
+    TreeNode(std::string);
     int data;
     TreeNode* left, right;
 }
