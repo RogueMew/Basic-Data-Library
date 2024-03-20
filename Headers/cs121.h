@@ -48,7 +48,7 @@ class Stack
 class TreeNode
 {
     int data;
-    TreeNode* left;
+    TreeNode* left, right;
 }
 
 class Tree
