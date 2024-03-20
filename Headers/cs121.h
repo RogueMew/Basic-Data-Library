@@ -55,10 +55,14 @@ class TreeNode
 
 class Tree
 {
+    private:
+        TreeNode* root;
+        TreeNode* preorder();
     public:
         Tree();
-        void push(std::string, std::string);
-        int size();
-        viid print();
+        Tree(int);
+        void appendL(int);
+        void appendR(int);
+        void print();
 };
 #endif
