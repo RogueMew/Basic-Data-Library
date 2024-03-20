@@ -48,8 +48,7 @@ class Stack
 class Tree
 {
     private:
-        std::string data;
-        int data(
+        int data;
         Node* root
         Node* left;
         Node* right;
