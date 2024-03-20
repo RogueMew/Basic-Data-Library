@@ -49,8 +49,9 @@ class Tree
 {
     private:
         std::string data;
-        Node* Left;
-        Node* Right;
+        Node* root
+        Node* left;
+        Node* right;
     public:
         Tree();
         void push(std::string, std::string);
